@@ -1,0 +1,98 @@
+/* Reset Styles */
+* {
+      border: 0;
+      box-sizing: content-box;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      font-style: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      vertical-align: top;
+    }
+    
+    /* General Styling */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #FFF;
+      margin: 20px auto;
+      padding: 1.1in 0.75in 0.5in 0.75in;
+      width: 8.5in;
+      height: 11in;
+      box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    header img {
+      max-height: 100px;
+    }
+    
+    header h1 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 6px 0 26px 0;
+    }
+    
+    /* Form Styling */
+    form {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .add-form-field {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    button:hover {
+      background: #0056b3;
+    }
+    
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    #total-price-container {
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    
